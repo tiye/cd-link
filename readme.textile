@@ -1,0 +1,19 @@
+
+h2. cd-link 打算实现一个目录功能
+
+h3. 关于安装
+
+@cr.sh@ 脚本需要在的 @~/.bashrc@ 里引入, 注意更改对应文件
+@main.coffee@ 脚本需要已经安装 Node.js 和 @coffee-script@ 才能个运行
+@links@ 文件存储了对应的 JSON 书签映射
+
+h3. 相关命令行工具
+
+"cdargs":http://www.skamphausen.de/cgi-bin/ska/CDargs
+"autojump":https://github.com/joelthelion/autojump
+
+h3. 我的意图
+
+*命令行设计得太丑陋了..* 我会不断被逼着去改变的
+不过 Bash 真心太难受了, 和同学商量了也勉勉强强完成代码
+我是 Arch 里测试的, 其他的发行版只好自行调试了
